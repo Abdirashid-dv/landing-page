@@ -10,14 +10,13 @@ This is my submission for Challenge 2 of The Odin Project's curriculum, which in
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-*Description of the screenshot.*
-
+![Screenshot 1](./assets/screenshots/Screenshot%202023-08-26%20140515.png)
+_This a hero section design._
 
 ## Features
 
 - **Mobile-Friendly and Responsive:** This landing page is designed to be fully responsive, ensuring a seamless and visually appealing experience across various devices, including desktops, tablets, and mobile phones.
-- **Interactive Elements:** Including interactive elements such as buttons, hover effects, and clickable sections to encourage user engagement. 
+- **Interactive Elements:** Including interactive elements such as buttons, hover effects, and clickable sections to encourage user engagement.
 
 ## Technologies Used
 
@@ -28,7 +27,7 @@ This is my submission for Challenge 2 of The Odin Project's curriculum, which in
 
 If you want to run this project locally on your machine, follow these steps:
 
-1. Clone the repository: `git clone [repository URL]`
+1. Clone the repository: `git clone https://github.com/Abdirashid-dv/landing-page`
 2. Open the `index.html` file in your web browser.
 
 ## Challenges and Lessons Learned
@@ -38,7 +37,6 @@ In the process of creating this landing page using HTML and CSS, I encountered s
 ## Acknowledgments
 
 I would like to thank The Odin Project for providing this project as part of their curriculum. It has been a great learning experience.
-
 
 ---
 

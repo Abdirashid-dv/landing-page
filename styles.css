@@ -145,9 +145,11 @@ html {
 }
 
 .companies-logo img {
-  height: 50px;
+  width: 10%;
   margin-left: 25px;
   filter: brightness(0);
+  aspect-ratio: 3/2;
+  object-fit: contain;
 }
 
 .wrapper {
@@ -539,11 +541,6 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 873px) {
-  .nav-bar {
-    padding: 30px 20px;
-    color: red;
-  }
-
   .hero-img img {
     height: 350px;
   }
@@ -552,13 +549,19 @@ hr {
   .middle-section,
   .feature > .container,
   .testimonial-container,
-  .contact-details-container {
+  .contact-details-container,
+  .footer-bar,
+  .credits {
     padding: 15px 40px;
   }
 
   .wrapper,
   .hero {
     flex-direction: column;
+  }
+
+  .logo h2 {
+    font-size: 1.576rem;
   }
 
   .hero-img {
@@ -589,7 +592,7 @@ hr {
   }
 
   .container-right {
-    width: 900px;
+    max-width: 900px;
   }
   .container-right > p {
     max-width: 700px;
@@ -634,7 +637,11 @@ hr {
   }
   .nav-bar {
     padding: 16px 20px 0 20px;
-    justify-content: space-around;
+    justify-content: space-between;
+  }
+  .pages ul {
+    gap: 10px;
+    margin-right: 0;
   }
   .hero {
     padding: 16px 20px;
@@ -667,8 +674,9 @@ hr {
     height: 300px;
     width: 315px;
   }
-  .container-right > h4 {
-    font-size: 1.25rem;
+  .container-right > h4,
+  .feature .container h2 {
+    font-size: 1.75rem;
   }
   .testimonial-title h2 {
     font-size: 1.25rem;
@@ -705,6 +713,18 @@ hr {
     flex-direction: column;
   }
   .header {
-    height: 75vh;
+    height: 80vh;
+  }
+  .wrapper {
+    margin-top: 50px;
+  }
+
+  .credits {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+  .companies-logo img {
+    width: 15%;
   }
 }
